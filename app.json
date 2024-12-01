@@ -13,7 +13,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.duytung95nb.reactnativebase"
     },
     "android": {
       "adaptiveIcon": {
@@ -23,6 +24,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "89ca97df-12bc-44fb-8fad-0e67d5b38113"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/89ca97df-12bc-44fb-8fad-0e67d5b38113"
     }
   }
 }
